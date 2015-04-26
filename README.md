@@ -9,6 +9,10 @@ packages <- c("data.table", "reshape2")
 
 sapply(packages, require, character.only=TRUE, quietly=TRUE)
 ```
+After the packages are load, and the run_analysis.R is saved on the working directory, then:
+```
+source("run_analysis.R")
+```
 
 The Codes does the following:
 
