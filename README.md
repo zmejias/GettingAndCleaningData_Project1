@@ -4,9 +4,11 @@ Repo for the Getting and Cleaning Data Project 1 Submission
 run_analysis.R needs some preliminary set up before running the code:
 
 Please load the Packages with these two lines:
-
+```
 packages <- c("data.table", "reshape2")
+
 sapply(packages, require, character.only=TRUE, quietly=TRUE)
+```
 
 The Codes does the following:
 
